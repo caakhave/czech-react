@@ -2,7 +2,7 @@ import React from 'react';
 import revealClass from './reveal';
 import { Link } from 'react-router-dom';
 
-function Teachers() {
+function DeclensionForeign() {
     return (
         <div>
             <div id="grid">
@@ -65,6 +65,7 @@ function Teachers() {
            Prepositions
          </Link>
        </li>
+
                         </ul>
                         </div>
                     </div>
@@ -73,11 +74,81 @@ function Teachers() {
 
                 
                 <main role="main" className="main"> 
-                    <h1>Teachers</h1>
-                    <h1>Teachers</h1>
-                    <h1>Teachers</h1>
-                    <h1>Teachers</h1>
-                    <h1>Teachers</h1>
+
+                <div className="col-xs-12">
+    
+    <h4 className="text-center">Words with a foreign origin - Plural</h4>
+
+    <div className="table-responsive-lg">
+<table className="table table-sm table-striped table-hover">
+  <thead>
+    <tr>
+    <th scope="row">Nominative</th>
+    <th>Centra</th>
+    <th>Studia</th>
+    <th>Géniové</th>
+    <th>Cykly</th>
+    <th>Ideje</th>
+    <th>Dramata</th>
+    <th>no plural</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr>
+    <th scope="row">Genitive</th>
+<td>Center</td>
+<td>Studií</td>
+<td>Géniů</td>
+<td>Cyklů</td>
+<td>Idejí</td>
+<td>Dramat</td>
+<td></td>
+</tr>
+<tr>
+    <th scope="row">Dative</th>
+<td>Centrům</td>
+<td>Studiím</td>
+<td>Géniům</td>
+<td>Cyklům</td>
+<td>Idejím/Ideám</td>
+<td>Dramatům</td>
+<td></td>
+</tr>
+<tr>
+    <th scope="row">Accusative</th>
+<td>Centra</td>
+<td>Studia</td>
+<td>Génie</td>
+<td>Cykly</td>
+<td>Ideje/Idey</td>
+<td>Dramata</td>
+<td></td>
+</tr>
+<tr>
+    <th scope="row">Locative</th>
+<td>Centrech</td>
+<td>Studiích</td>
+<td>Géniích</td>
+<td>Cyklech</td>
+<td>Idejích/Ideách</td>
+<td>Dramatech</td>
+<td></td>
+</tr>
+<tr>
+    <th scope="row">Instrumental</th>
+<td>Centry</td>
+<td>Studií</td>
+<td>Génií/ovi</td>
+<td>Cykly</td>
+<td>Idejemi/Ideami</td>
+<td>Dramaty</td>
+<td></td>
+</tr>
+
+</tbody>
+</table>
+</div>
+</div>
 
                 </main>
  
@@ -86,4 +157,4 @@ function Teachers() {
      )
  }
  
- export default Teachers;
+ export default DeclensionForeign;

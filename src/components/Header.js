@@ -6,13 +6,14 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
   DropdownItem
 } from 'reactstrap';
-import Sidebar from './Sidebar';
+import { NavLink } from 'react-router-dom';
+
+
 
 const Header = (props) => {
     const [collapsed, setCollapsed] = useState(true);
@@ -34,18 +35,18 @@ const Header = (props) => {
               </NavItem>
               <UncontrolledDropdown nav inNavbar className="d-lg-none">
               <DropdownToggle nav caret>
-                Options
+                Grammar
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
-                  Option 1
+                <NavLink to="/declension-all">Declension Tables</NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  Option 2
+                <NavLink to="/pronouns">Pronouns</NavLink>
                 </DropdownItem>
-                <DropdownItem divider />
+        
                 <DropdownItem>
-                  Reset
+                <NavLink to="/prepositions">Prepositions</NavLink>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
@@ -75,79 +76,3 @@ export default Header;
 
 
 
-
-/* import React, { useState } from 'react';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  Dropdown
-} from 'reactstrap';
-
-const Header = (props) => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => setIsOpen(!isOpen);
-
-  const [dropdownOpen, setDropdownOpen] = useState(false);
-
-
-  return (
-    <div>
-      <Navbar className="navbar navbar-expand-lg bg-dark" expand="lg">
-        <NavbarBrand className="" href="/">czech.ninja</NavbarBrand>
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
-            <NavItem>
-              <NavLink href="/resources/">Resources</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/teachers">Teacher's Lounge</NavLink>
-            </NavItem>
-             <Dropdown isOpen={dropdownOpen} toggle={toggle}>
-                <DropdownToggle caret>
-                    Declension Tables
-                    </DropdownToggle>
-                <DropdownMenu>
-                    <DropdownItem>Explanation of cases</DropdownItem>
-                    <DropdownItem>Main list</DropdownItem>
-                    <DropdownItem>Foo Action</DropdownItem>
-                    <DropdownItem>Bar Action</DropdownItem>
-                    <DropdownItem>Quo Action</DropdownItem>
-                </DropdownMenu>
-            </Dropdown> }
-          </Nav>
-          <UncontrolledDropdown nav inNavbar className="d-lg-none">
-              <DropdownToggle nav caret>
-                Options
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>
-                  Option 1
-                </DropdownItem>
-                <DropdownItem>
-                  Option 2
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>
-                  Reset
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
-
-        </Collapse>
-      </Navbar>
-    </div>
-  );
-}
-
-export default Header; */

@@ -2,7 +2,7 @@ import React from 'react';
 import revealClass from './reveal';
 import { Link } from 'react-router-dom';
 
-function Teachers() {
+function DeclensionBodyParts() {
     return (
         <div>
             <div id="grid">
@@ -65,6 +65,7 @@ function Teachers() {
            Prepositions
          </Link>
        </li>
+
                         </ul>
                         </div>
                     </div>
@@ -73,12 +74,86 @@ function Teachers() {
 
                 
                 <main role="main" className="main"> 
-                    <h1>Teachers</h1>
-                    <h1>Teachers</h1>
-                    <h1>Teachers</h1>
-                    <h1>Teachers</h1>
-                    <h1>Teachers</h1>
 
+                <div className="col-xs-12">
+        <a name="body"></a>
+            <h4 className="text-center">Body parts that are in pairs (no singular):<br />
+        eyes, ears, hands, legs, breast, shoulders, knees</h4>
+        
+        <div className="table-responsive-lg">
+        
+        <table className="table table-sm table-striped table-hover">
+          <thead>
+        
+        <tr>
+             <th scope="row">Nominative</th>
+             <th>Oči</th>
+             <th>Uši</th>
+             <th>Ruce</th>
+             <th>Nohy</th>
+             <th>Prsa</th>
+             <th>Ramena</th>
+             <th>Kolena</th>
+           </tr>
+          </thead>
+          <tbody>
+        
+           <tr>
+             <th scope="row">Genitive</th>
+             <td>Očí</td>
+             <td>Uší</td>
+             <td>Rukou</td>
+             <td>Noh/Nohou</td>
+             <td>Prsou</td>
+             <td>Ramen/Ramenou</td>
+             <td>Kolen/Kolenou</td>
+            </tr>
+           <tr>
+             <th scope="row">Dative</th>
+             <td>Očím</td>
+             <td>Uším</td>
+             <td>Rukám</td>
+             <td>Nohám</td>
+             <td>Prsům</td>
+             <td>Ramenům</td>
+             <td>Kolenům</td>
+           </tr>
+           <tr>
+             <th scope="row">Accusative</th>
+             <td>Oči</td>
+             <td>Uši</td>
+             <td>Ruce</td>
+             <td>Nohy</td>
+             <td>Prsa</td>
+             <td>Ramena</td>
+             <td>Kolena</td>
+           </tr>
+           <tr>
+             <th scope="row">Locative</th>
+             <td>Očích</td>
+             <td>Uších</td>
+             <td>Rukách/Rukou</td>
+             <td>Nohách/Nohou</td>
+             <td>Prsou</td>
+             <td>Ramenech/Ramenou</td>
+             <td>Kolenech/Kolenou</td>
+           </tr>
+           <tr>
+             <th scope="row">Instrumental</th>
+             <td>Očima</td>
+             <td>Ušima</td>
+             <td>Rukama</td>
+             <td>Nohama</td>
+             <td>Prsy</td>
+             <td>Rameny</td>
+             <td>Koleny</td>
+           </tr>
+        
+        </tbody>
+        </table>
+        </div>
+        </div>
+        
                 </main>
  
             </div>
@@ -86,4 +161,4 @@ function Teachers() {
      )
  }
  
- export default Teachers;
+ export default DeclensionBodyParts;

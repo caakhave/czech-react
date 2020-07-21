@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem,
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem,
  } from 'reactstrap';
+ import { NavLink } from 'react-router-dom';
 
 const Footer = (props) => {
     const [collapsed, setCollapsed] = useState(true);
@@ -10,7 +11,7 @@ const Footer = (props) => {
     return (
       <div>
         <Navbar className="navbar navbar-expand-lg fixed-bottom navbar-dark bg-dark">
-          <NavbarBrand href="/" className="mr-auto">reactstrap</NavbarBrand>
+          <NavbarBrand href="/" className="mr-auto">czech.ninja</NavbarBrand>
           <NavbarToggler onClick={toggleNavbar} className="mr-2" />
           <Collapse isOpen={!collapsed} navbar>
             <Nav navbar>
@@ -22,18 +23,18 @@ const Footer = (props) => {
               </NavItem>
             <UncontrolledDropdown nav inNavbar className="d-lg-none">
               <DropdownToggle nav caret>
-                Options
+              Declension Tables
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
-                  Option 1
+                <NavLink to="/declension-all">Declension Tables</NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  Option 2
+                <NavLink to="/pronouns">Pronouns</NavLink>
                 </DropdownItem>
-                <DropdownItem divider />
+        
                 <DropdownItem>
-                  Reset
+                <NavLink to="/prepositions">Prepositions</NavLink>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
