@@ -55,7 +55,7 @@ nav.logo {
 
 .bg {
   background-image: url("./img/cz-home-img.jpg");
-  height: 100vh;
+  height: calc(100vh - 80px);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; 
@@ -164,9 +164,10 @@ nav.logo {
   border-color: #83c683;
   color: #fff; }
 
-.btn-mint:hover {
+a.btn-mint:hover {
   background-color: #79a779;
-  border-color: #79a779; }
+  border-color: #79a779; 
+  color: #fff; }
 
 a.mint:hover {
   color: #83c683; }
@@ -191,8 +192,8 @@ li.nav-item.active a {
   color: #83c683 !important;
   font-weight: bold; }
 
-.table-striped tbody tr:nth-of-type(2n+1) {
-  background-color: rgba(131, 198, 131, 0.1); }
+  .table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(131, 198, 131, 0.1) !important; }
 
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(131, 198, 131, 1) !important; } 
@@ -307,11 +308,21 @@ a.teacher-list:hover {
   margin-top: 10px;
   font-weight: bold; }
 
+  .teacher-bottom-content a:hover {
+   color: #fff;
+   text-decoration: none;
+   background-color: #79a779;
+  }
+
 .resources .card {
   margin-bottom: 25px; }
 
 .btn-resources {
   float: right; }
+
+.btn-resources:hover {
+  background-color: #79a779 !important;
+  color: #fff }
 
 .test h2 {
   text-align: center;

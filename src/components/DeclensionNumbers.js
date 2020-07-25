@@ -80,10 +80,10 @@ function DeclensionNumbers() {
 
 <div className="col-xs-12">
    
-        <h4 className="text-center">Even numbers change according to case...</h4>
+        <h4 className="text-center">Numbers also change according to case.</h4>
     
-    
-    <Table responsive="lg">
+        <div className="table-responsive-lg">
+        <Table className="table table-sm table-striped table-hover">
       <thead>
           <tr>
          <th scope="row">Nominative</th>
@@ -163,7 +163,7 @@ function DeclensionNumbers() {
     </tbody>
     </Table>
    
-
+</div>
 </div>
 
 </main>

@@ -1,6 +1,7 @@
 import React from 'react';
 import revealClass from './reveal';
 import { Link } from 'react-router-dom';
+import { Table } from 'reactstrap';
 
 function DeclensionBodyParts() {
     return (
@@ -82,7 +83,7 @@ function DeclensionBodyParts() {
         
         <div className="table-responsive-lg">
         
-        <table className="table table-sm table-striped table-hover">
+        <Table className="table table-sm table-striped table-hover">
           <thead>
         
         <tr>
@@ -150,7 +151,7 @@ function DeclensionBodyParts() {
            </tr>
         
         </tbody>
-        </table>
+        </Table>
         </div>
         </div>
         

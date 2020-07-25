@@ -75,19 +75,165 @@ function Resources() {
  
 
 
-<main role="main" className="main"> 
+<main role="main" className="main resources"> 
  
 
-          
-            <h1>Resources</h1>
-            <h1>Resources</h1>
-            <h1>Resources</h1>
-            <h1>Resources</h1>
-            <h1>Resources</h1>
-            <h1>Resources</h1>
-            <h1>Resources</h1>
-            <h1>Resources</h1>
-       
+<div className="container-fluid">
+        <h2 className="mb-4">Have a helpful Czech link?  Let us know!</h2>
+        <form>
+<div className="row mb-5">
+            <div className="col-12 col-md-6">
+            <div className="form-group">
+              <label htmlFor="resources-sitename">Site Name</label>
+              <input type="text" className="form-control" id="resources-sitename" placeholder="Enter site name" />
+            </div>
+            <div className="form-group">
+              <label htmlFor="resources-url">URL</label>
+              <input type="text" className="form-control" id="resources-url" placeholder="http://..." />
+            </div>
+        </div>
+        <div className="col-12 col-md-6">
+            <div className="form-group">
+                <label htmlFor="resources-about">Tell us about it</label>
+                <textarea className="form-control" id="resources-about" rows="2"></textarea>
+              </div>
+            <button type="submit" className="btn btn-mint btn-resources">Submit</button>
+        </div>
+    </div>
+          </form>
+
+
+        <div className="row">
+            <div className="col-12 col-md-6">
+                <div className="card">
+                    <div className="card-header">
+                    Site Name
+                    </div>
+                    <div className="card-body">
+                    <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolor esse id voluptatum quod, nostrum minus saepe blanditiis quos molestias vitae labore deserunt dolore, voluptas, ipsa sed. Perspiciatis voluptatibus unde laborum eius, perferendis aspernatur..</p>
+                    <a href="#" className="btn btn-mint">Visit site!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-12 col-md-6">
+                <div className="card">
+                    <div className="card-header">
+                    Site Name
+                    </div>
+                    <div className="card-body">
+                    <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolor esse id voluptatum quod, nostrum minus saepe blanditiis quos molestias vitae labore deserunt dolore, voluptas, ipsa sed. Perspiciatis voluptatibus unde laborum eius, perferendis aspernatur..</p>
+                    <a href="#" className="btn btn-mint">Visit site!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="row">
+            <div className="col-12 col-md-6">
+                <div className="card">
+                    <div className="card-header">
+                    Site Name
+                    </div>
+                    <div className="card-body">
+                    <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolor esse id voluptatum quod, nostrum minus saepe blanditiis quos molestias vitae labore deserunt dolore, voluptas, ipsa sed. Perspiciatis voluptatibus unde laborum eius, perferendis aspernatur..</p>
+                    <a href="#" className="btn btn-mint">Visit site!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-12 col-md-6">
+                <div className="card">
+                    <div className="card-header">
+                    Site Name
+                    </div>
+                    <div className="card-body">
+                    <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolor esse id voluptatum quod, nostrum minus saepe blanditiis quos molestias vitae labore deserunt dolore, voluptas, ipsa sed. Perspiciatis voluptatibus unde laborum eius, perferendis aspernatur..</p>
+                    <a href="#" className="btn btn-mint">Visit site!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="row">
+            <div className="col-12 col-md-6">
+                <div className="card">
+                    <div className="card-header">
+                    Site Name
+                    </div>
+                    <div className="card-body">
+                    <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolor esse id voluptatum quod, nostrum minus saepe blanditiis quos molestias vitae labore deserunt dolore, voluptas, ipsa sed. Perspiciatis voluptatibus unde laborum eius, perferendis aspernatur..</p>
+                    <a href="#" className="btn btn-mint">Visit site!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-12 col-md-6">
+                <div className="card">
+                    <div className="card-header">
+                    Site Name
+                    </div>
+                    <div className="card-body">
+                    <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolor esse id voluptatum quod, nostrum minus saepe blanditiis quos molestias vitae labore deserunt dolore, voluptas, ipsa sed. Perspiciatis voluptatibus unde laborum eius, perferendis aspernatur..</p>
+                    <a href="#" className="btn btn-mint">Visit site!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div className="row">
+            <div className="col-12 col-md-6">
+                <div className="card">
+                    <div className="card-header">
+                    Link Name
+                    </div>
+                    <div className="card-body">
+                    <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolor esse id voluptatum quod, nostrum minus saepe blanditiis quos molestias vitae labore deserunt dolore, voluptas, ipsa sed. Perspiciatis voluptatibus unde laborum eius, perferendis aspernatur..</p>
+                    <a href="#" className="btn btn-mint">Visit site!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-12 col-md-6">
+                <div className="card">
+                    <div className="card-header">
+                    Link Name
+                    </div>
+                    <div className="card-body">
+                    <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolor esse id voluptatum quod, nostrum minus saepe blanditiis quos molestias vitae labore deserunt dolore, voluptas, ipsa sed. Perspiciatis voluptatibus unde laborum eius, perferendis aspernatur..</p>
+                    <a href="#" className="btn btn-mint">Visit site!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div className="row">
+            <div className="col-12 col-md-6">
+                <div className="card">
+                    <div className="card-header">
+                    Site Name
+                    </div>
+                    <div className="card-body">
+                    <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolor esse id voluptatum quod, nostrum minus saepe blanditiis quos molestias vitae labore deserunt dolore, voluptas, ipsa sed. Perspiciatis voluptatibus unde laborum eius, perferendis aspernatur..</p>
+                    <a href="#" className="btn btn-mint">Visit site!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-12 col-md-6">
+                <div className="card">
+                    <div className="card-header">
+                    Site Name
+                    </div>
+                    <div className="card-body">
+                    <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolor esse id voluptatum quod, nostrum minus saepe blanditiis quos molestias vitae labore deserunt dolore, voluptas, ipsa sed. Perspiciatis voluptatibus unde laborum eius, perferendis aspernatur..</p>
+                    <a href="#" className="btn btn-mint">Visit site!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       </div>
             </main>
  
  </div>
